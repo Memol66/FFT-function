@@ -1,0 +1,12 @@
+import numpy as np
+
+def fft_input():
+    # Assuming you have some input signal
+    signal = np.random.random(1024)
+    # Applying FFT to the signal
+    fft_result = np.fft.fft(signal)
+    return fft_result
+
+# Example usage
+result = fft_input()
+print(result)
